@@ -1,0 +1,18 @@
+body{background-color: cyan;}
+h1{background-color: greenyellow;color:indigo;font-weight:bold;}
+#show_sketch{
+float: right;
+}
+canvas{
+animation-name: VEDAANT;
+animation-duration: 2s;
+border: 5px solid;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes VEDAANT {from{box-shadow: 5px 5px 30px olivedrab;}
+ to{box-shadow: 5px 5px 30px pink;}   
+}
+p{
+font-size: 35px;
+}
